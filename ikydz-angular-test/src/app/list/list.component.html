@@ -1,6 +1,5 @@
-<!-- display search results here -->
 <ol>
-    <li>
-    
-    </li>
-  </ol>
+  <li *ngFor="let country of searchCountriesList; trackBy: trackByFn">
+    {{ country }}
+  </li>
+</ol>
